@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  line-height: 36px;
+  font-family: 'Macondo Swash Caps', cursive;
+}
+html, body { width: 100%;height: 100%; }
+body {
+  margin: 0;
+
+  background-color: #b3ffb0;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Macondo Swash Caps', cursive;
+
+}
+
+figure{
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.content-weeding{
+  max-width: 992px;
+  margin: 0 auto;
+}
